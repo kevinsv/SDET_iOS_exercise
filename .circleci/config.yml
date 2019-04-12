@@ -4,7 +4,7 @@ version: 2
 jobs:
   build:
     macos:
-      xcode: "9.0"
+      xcode: "10.2"
     working_directory: /Users/distiller/project
     environment:
       FL_OUTPUT_DIR: output
@@ -14,13 +14,13 @@ jobs:
       - checkout
       - restore_cache:
           key: 1-gems-{{ checksum "Gemfile.lock" }}
+      - run: bundle check || bundle install --path vendor/bundle
       - run:
           name: Configure Bundler
           command: |
               echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
               source $BASH_ENV
               gem install bundler
-      - run: bundle check || bundle install --path vendor/bundle
       - save_cache:
           key: 1-gems-{{ checksum "Gemfile.lock" }}
           paths:
