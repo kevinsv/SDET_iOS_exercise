@@ -1,4 +1,5 @@
- 
+# .circleci/config.yml
+
 version: 2
 jobs:
   build:
@@ -11,15 +12,21 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
+      - restore_cache:
+          key: 1-gems-{{ checksum "Gemfile.lock" }}
       - run:
           name: Configure Bundler
           command: |
             echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
             source $BASH_ENV
-            gem install bundler
-      - run: sudo bundle install
+            gem install bundler    
+      - run: bundle check || bundle install --path vendor/bundle
+      - save_cache:
+          key: 1-gems-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
       - run:
-          name: Fastlane
+          name: fastlane
           command: bundle exec fastlane $FASTLANE_LANE
       - store_artifacts:
           path: output
