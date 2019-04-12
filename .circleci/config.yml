@@ -11,10 +11,10 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - run: bundler install
+      - run: sudo bundle install
       - run:
           name: Fastlane
-          command: bundler exec fastlane $FASTLANE_LANE
+          command: bundle exec fastlane $FASTLANE_LANE
       - store_artifacts:
           path: output
       - store_test_results:
