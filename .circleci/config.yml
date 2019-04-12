@@ -12,8 +12,6 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - restore_cache:
-          key: 1-gems-{{ checksum "Gemfile.lock" }}
       - run:
           name: Configure Bundler
           command: |
