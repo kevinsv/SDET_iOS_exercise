@@ -20,7 +20,7 @@ or alternatively using `brew cask install fastlane`
 ```
 fastlane ios tests
 ```
-Run Automation Test
+Runs all the tests
 
 ----
 
