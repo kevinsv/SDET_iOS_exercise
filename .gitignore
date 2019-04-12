@@ -3,3 +3,5 @@
 
 Carthage
 
+.DS_Store
+fastlane/.DS_Store
