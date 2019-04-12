@@ -16,6 +16,11 @@
 default_platform(:ios)
 
 platform :ios do
+  before_all do
+    setup_circle_ci
+  end
+
+platform :ios do
   desc "Run Automation Test"
    lane :tests do
   run_tests(scheme: "LoginDemoRxRedux")
