@@ -10,10 +10,10 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - run: bundle install
+      - run: bundler install
       - run:
           name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
+          command: bundler exec fastlane $FASTLANE_LANE
       - store_artifacts:
           path: output
       - store_test_results:
@@ -28,10 +28,10 @@ jobs:
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - run: bundle install
+      - run: bundler install
       - run:
           name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
+          command: bundler exec fastlane $FASTLANE_LANE
       - store_artifacts:
           path: output
 
