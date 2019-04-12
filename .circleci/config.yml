@@ -1,4 +1,4 @@
-=# .circleci/config.yml
+# .circleci/config.yml
 
 version: 2
 jobs:
