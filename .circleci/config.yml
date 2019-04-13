@@ -39,7 +39,7 @@ jobs:
       - checkout
 #      - restore_cache:
 #          key: 1-gems-{{ checksum "Gemfile.lock" }}
-      - ryb: bundle install
+      - run: bundle install
       - run: bundle version
       - run: bundle update
       - run: bundle check || bundle install --path vendor/bundle
