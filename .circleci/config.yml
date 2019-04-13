@@ -40,7 +40,8 @@ jobs:
 #      - restore_cache:
 #          key: 1-gems-{{ checksum "Gemfile.lock" }}
       - run: bundle version
-      - run: bundle update --bundler
+      - run: gem install bundler && bundle update --path vendor/bundle
+      - run: gem bundle update --bundler --path vendor/bundle
       - run: bundle check || bundle install --path vendor/bundle
 #      - save_cache:
 #          key: 1-gems-{{ checksum "Gemfile.lock" }}
