@@ -11,13 +11,13 @@ jobs:
       FASTLANE_LANE: test
     shell: /bin/bash --login -o pipefail
     steps:
+      - checkout
       - run:
         name: Configure Bundler
         command: |
           echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
           source $BASH_ENV
           gem install bundle
-      - checkout 
       - run: bundle check || bundle install --path vendor/bundle
       - run:
           name: fastlane
