@@ -39,7 +39,7 @@ jobs:
       - checkout
 #      - restore_cache:
 #          key: 1-gems-{{ checksum "Gemfile.lock" }}
-      - run: carthage bootstrap
+#      - run: carthage bootstrap
       - run: bundle install
       - run: bundle update
       - run: bundle version

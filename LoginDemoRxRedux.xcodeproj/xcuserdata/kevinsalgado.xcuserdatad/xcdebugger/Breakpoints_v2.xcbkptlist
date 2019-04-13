@@ -42,13 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.0639319"
+            timestampString = "576876456.134261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "testValidloginCredentials()"
-            landmarkType = "7">
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "LoginTest"
+            landmarkType = "3">
             <Actions>
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
@@ -66,27 +66,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.06449"
+            timestampString = "576876456.135744"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "testValidloginCredentials()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.0648789"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "testValidloginCredentials()"
             landmarkType = "7">
          </BreakpointContent>
@@ -98,12 +82,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginPage.swift"
-            timestampString = "576737362.7809"
+            timestampString = "576876456.136324"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "buttonEnable()"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "buttonDisable()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -114,11 +98,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.065273"
+            timestampString = "576876456.136426"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "testValidloginCredentials()"
             landmarkType = "7">
          </BreakpointContent>
@@ -130,7 +114,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.0656461"
+            timestampString = "576876456.13684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "testValidloginCredentials()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
+            timestampString = "576876456.137251"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -146,60 +146,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.066022"
+            timestampString = "576876456.137675"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "testValidloginCredentials()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.066402"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "testValidloginCredentials()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.0667779"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "testValidloginCredentials()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoginDemoRxReduxUITests/LoginTest.swift"
-            timestampString = "576868173.067151"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "testInvalidloginCredentials()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -210,11 +162,41 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginPage.swift"
-            timestampString = "576737362.783619"
+            timestampString = "576876456.13849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "58"
+            endingLineNumber = "58">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoginDemoRxReduxUITests/LoginPage.swift"
+            timestampString = "576876456.13858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoginDemoRxReduxUITests/LoginPage.swift"
+            timestampString = "576876456.138656"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "alertDisplayed()"
             landmarkType = "7">
          </BreakpointContent>
@@ -226,28 +208,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoginDemoRxReduxUITests/LoginPage.swift"
-            timestampString = "576737362.783698"
+            timestampString = "576876456.138757"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "alertDisplayed()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoginDemoRxReduxUITests/LoginPage.swift"
-            timestampString = "576737362.783772"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "buttonDisable()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -257,14 +223,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LoginDemoRxReduxUITests/LoginPage.swift"
-            timestampString = "576868136.867017"
+            filePath = "LoginDemoRxReduxUITests/TableViewTest.swift"
+            timestampString = "576878400.6482559"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "buttonDisable()"
-            landmarkType = "7">
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "LoginTest"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

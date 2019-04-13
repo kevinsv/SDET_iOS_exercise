@@ -13,6 +13,7 @@
 		59B50F51219ABD19001286B1 /* RandomColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B50F50219ABD19001286B1 /* RandomColorHelper.swift */; };
 		59B50F55219AC1D6001286B1 /* GOTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B50F54219AC1D6001286B1 /* GOTService.swift */; };
 		59B50F5B219B31D6001286B1 /* DemoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B50F5A219B31D6001286B1 /* DemoTableView.swift */; };
+		7B6BED1322627076006D480A /* TableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BED1222627076006D480A /* TableViewTest.swift */; };
 		7BDE6A21225EDC5E0066FD79 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6A20225EDC5E0066FD79 /* LoginPage.swift */; };
 		7BDE6A27225EE3CE0066FD79 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6A26225EE3CE0066FD79 /* LoginTest.swift */; };
 		7BDE6A2D226019F60066FD79 /* TableViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6A2C226019F60066FD79 /* TableViewPage.swift */; };
@@ -59,6 +60,7 @@
 		59B50F50219ABD19001286B1 /* RandomColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorHelper.swift; sourceTree = "<group>"; };
 		59B50F54219AC1D6001286B1 /* GOTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTService.swift; sourceTree = "<group>"; };
 		59B50F5A219B31D6001286B1 /* DemoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableView.swift; sourceTree = "<group>"; };
+		7B6BED1222627076006D480A /* TableViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTest.swift; sourceTree = "<group>"; };
 		7BDE6A16225ED1910066FD79 /* LoginDemoRxReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoRxReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDE6A1A225ED1910066FD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BDE6A20225EDC5E0066FD79 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				7BDE6A20225EDC5E0066FD79 /* LoginPage.swift */,
 				7BDE6A26225EE3CE0066FD79 /* LoginTest.swift */,
 				7BDE6A2C226019F60066FD79 /* TableViewPage.swift */,
+				7B6BED1222627076006D480A /* TableViewTest.swift */,
 			);
 			path = LoginDemoRxReduxUITests;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BDE6A21225EDC5E0066FD79 /* LoginPage.swift in Sources */,
+				7B6BED1322627076006D480A /* TableViewTest.swift in Sources */,
 				7BDE6A2D226019F60066FD79 /* TableViewPage.swift in Sources */,
 				7BDE6A27225EE3CE0066FD79 /* LoginTest.swift in Sources */,
 			);
