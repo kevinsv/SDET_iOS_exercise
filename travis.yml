@@ -6,6 +6,7 @@ branches:
     - master
 before_install:
   - gem install fastlane --no-ri --no-rdoc --no-document
-install: true
+install:
+  - bundle install
 script:
   - fastlane test
