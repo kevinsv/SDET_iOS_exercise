@@ -6,14 +6,20 @@ jobs:
       xcode: "10.1.0"
     shell: /bin/bash --login -eo pipefail
     working_directory: /Users/distiller/project
+    
+    
     environment:
     steps:
       - checkout
       - run:
+            name: Update Carthage
+            command: carthage update --no-use-binaries --platform iOS
+      - run:
+            name: Build app Carthage
+            command: carthage bootstrap --platform ios --no-use-binaries
+      - run:
             name: Setup - Running bundle install
             command: bundle check || bundle install --path vendor/bundle
-
-
       - run:
             name: Build and run tests
             command: bundle exec fastlane test
