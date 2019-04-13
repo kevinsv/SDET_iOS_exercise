@@ -9,7 +9,7 @@ jobs:
     environment:
     steps:
       - checkout
-       - run:
+      - run:
             name: Update Carthrage
             command: carthage update
       - run:
