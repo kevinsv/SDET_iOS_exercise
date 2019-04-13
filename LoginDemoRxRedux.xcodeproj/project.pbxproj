@@ -12,18 +12,10 @@
 		59B50F4D2199D38E001286B1 /* DemoCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B50F4C2199D38E001286B1 /* DemoCellModel.swift */; };
 		59B50F51219ABD19001286B1 /* RandomColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B50F50219ABD19001286B1 /* RandomColorHelper.swift */; };
 		59B50F55219AC1D6001286B1 /* GOTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B50F54219AC1D6001286B1 /* GOTService.swift */; };
-		59B50F57219AD2E8001286B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B50F56219AD2E8001286B1 /* Alamofire.framework */; };
-		59B50F59219AF014001286B1 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B50F58219AF014001286B1 /* AlamofireImage.framework */; };
 		59B50F5B219B31D6001286B1 /* DemoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B50F5A219B31D6001286B1 /* DemoTableView.swift */; };
 		7BDE6A21225EDC5E0066FD79 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6A20225EDC5E0066FD79 /* LoginPage.swift */; };
 		7BDE6A27225EE3CE0066FD79 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6A26225EE3CE0066FD79 /* LoginTest.swift */; };
 		7BDE6A2D226019F60066FD79 /* TableViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6A2C226019F60066FD79 /* TableViewPage.swift */; };
-		B006CC3A20DD055700492055 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3620DD055700492055 /* RxCocoa.framework */; };
-		B006CC3B20DD055700492055 /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3720DD055700492055 /* RxGesture.framework */; };
-		B006CC3C20DD055700492055 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3820DD055700492055 /* RxSwift.framework */; };
-		B0149AF32180A2840049B4CA /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0149AF22180A2840049B4CA /* Lottie.framework */; };
-		B0149AF52180A2880049B4CA /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0149AF42180A2880049B4CA /* Swinject.framework */; };
-		B0149AF72180A28D0049B4CA /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0149AF62180A28D0049B4CA /* SnapKit.framework */; };
 		B07785122033045700976A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07785112033045700976A2F /* AppDelegate.swift */; };
 		B07785142033045700976A2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07785132033045700976A2F /* LoginViewController.swift */; };
 		B07785192033045700976A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07785182033045700976A2F /* Assets.xcassets */; };
@@ -32,18 +24,12 @@
 		B077853220331DA600976A2F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077853120331DA600976A2F /* LoginView.swift */; };
 		B085630E2042DB5A00F9C606 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B085630D2042DB5A00F9C606 /* LoginAPI.swift */; };
 		B09FA2CB20E289FB002BF342 /* LoginStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09FA2CA20E289FB002BF342 /* LoginStore.swift */; };
-		B09FA2CD20E28CAC002BF342 /* RxFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09FA2CC20E28CAB002BF342 /* RxFeedback.framework */; };
 		B0B0A12821809974005F1441 /* DependencyRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0A12721809974005F1441 /* DependencyRetriever.swift */; };
 		B0BA6D2B2174D993003AED4B /* TestScheduler+MarbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA6D2A2174D993003AED4B /* TestScheduler+MarbleTests.swift */; };
-		B0BA6D2C2174E3DB003AED4B /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BA6D282174D201003AED4B /* RxTest.framework */; };
 		B0FA49102182023C00FB45F2 /* Driver+Reducible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FA490F2182023C00FB45F2 /* Driver+Reducible.swift */; };
 		B521A0A72191C26100BF1C6E /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A0A62191C26100BF1C6E /* DemoTableViewController.swift */; };
 		B521A0AB2191C2C000BF1C6E /* DemoTableStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A0AA2191C2C000BF1C6E /* DemoTableStore.swift */; };
 		B551EA3221AD4D3100EBDC61 /* GOTCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551EA3121AD4D3100EBDC61 /* GOTCharacter.swift */; };
-		B5BD006E217E0DA50001BE98 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BD006D217E0DA40001BE98 /* Nimble.framework */; };
-		B5BD0070217E0DA70001BE98 /* Nimble_Snapshots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BD006F217E0DA70001BE98 /* Nimble_Snapshots.framework */; };
-		B5BD0072217E13980001BE98 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BD0071217E13980001BE98 /* FBSnapshotTestCase.framework */; };
-		B5D3BEC4217F17C9003B6903 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B006CC3620DD055700492055 /* RxCocoa.framework */; };
 		D78907782236BB370094671A /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78907772236BB370094671A /* UseCase.swift */; };
 		D789077A2236BB600094671A /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78907792236BB600094671A /* LoginUseCase.swift */; };
 		D789077F2236C1810094671A /* CharactersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789077E2236C1810094671A /* CharactersUseCase.swift */; };
@@ -69,26 +55,15 @@
 /* Begin PBXFileReference section */
 		597E2FC821A323130011D2B9 /* UIAlertController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Rx.swift"; sourceTree = "<group>"; };
 		59B50F482199C7E0001286B1 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
-		59B50F4A2199D1DA001286B1 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		59B50F4C2199D38E001286B1 /* DemoCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCellModel.swift; sourceTree = "<group>"; };
 		59B50F50219ABD19001286B1 /* RandomColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorHelper.swift; sourceTree = "<group>"; };
 		59B50F54219AC1D6001286B1 /* GOTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTService.swift; sourceTree = "<group>"; };
-		59B50F56219AD2E8001286B1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		59B50F58219AF014001286B1 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		59B50F5A219B31D6001286B1 /* DemoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableView.swift; sourceTree = "<group>"; };
 		7BDE6A16225ED1910066FD79 /* LoginDemoRxReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoRxReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDE6A1A225ED1910066FD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BDE6A20225EDC5E0066FD79 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		7BDE6A26225EE3CE0066FD79 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		7BDE6A2C226019F60066FD79 /* TableViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPage.swift; sourceTree = "<group>"; };
-		B006CC3520DD055700492055 /* RxAutomaton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAutomaton.framework; path = Carthage/Build/iOS/RxAutomaton.framework; sourceTree = "<group>"; };
-		B006CC3620DD055700492055 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		B006CC3720DD055700492055 /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
-		B006CC3820DD055700492055 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		B0149AF021809D530049B4CA /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0149AF22180A2840049B4CA /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
-		B0149AF42180A2880049B4CA /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
-		B0149AF62180A28D0049B4CA /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		B077850E2033045700976A2F /* LoginDemoRxRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemoRxRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07785112033045700976A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B07785132033045700976A2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -101,17 +76,12 @@
 		B077853120331DA600976A2F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B085630D2042DB5A00F9C606 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
 		B09FA2CA20E289FB002BF342 /* LoginStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStore.swift; sourceTree = "<group>"; };
-		B09FA2CC20E28CAB002BF342 /* RxFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxFeedback.framework; path = Carthage/Build/iOS/RxFeedback.framework; sourceTree = "<group>"; };
 		B0B0A12721809974005F1441 /* DependencyRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyRetriever.swift; sourceTree = "<group>"; };
-		B0BA6D282174D201003AED4B /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		B0BA6D2A2174D993003AED4B /* TestScheduler+MarbleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestScheduler+MarbleTests.swift"; sourceTree = "<group>"; };
 		B0FA490F2182023C00FB45F2 /* Driver+Reducible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Driver+Reducible.swift"; sourceTree = "<group>"; };
 		B521A0A62191C26100BF1C6E /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
 		B521A0AA2191C2C000BF1C6E /* DemoTableStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableStore.swift; sourceTree = "<group>"; };
 		B551EA3121AD4D3100EBDC61 /* GOTCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTCharacter.swift; sourceTree = "<group>"; };
-		B5BD006D217E0DA40001BE98 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		B5BD006F217E0DA70001BE98 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = Carthage/Build/iOS/Nimble_Snapshots.framework; sourceTree = "<group>"; };
-		B5BD0071217E13980001BE98 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
 		D78907772236BB370094671A /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		D78907792236BB600094671A /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
 		D789077E2236C1810094671A /* CharactersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersUseCase.swift; sourceTree = "<group>"; };
@@ -129,15 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B50F57219AD2E8001286B1 /* Alamofire.framework in Frameworks */,
-				B0149AF72180A28D0049B4CA /* SnapKit.framework in Frameworks */,
-				B0149AF52180A2880049B4CA /* Swinject.framework in Frameworks */,
-				B0149AF32180A2840049B4CA /* Lottie.framework in Frameworks */,
-				B09FA2CD20E28CAC002BF342 /* RxFeedback.framework in Frameworks */,
-				B006CC3A20DD055700492055 /* RxCocoa.framework in Frameworks */,
-				B006CC3B20DD055700492055 /* RxGesture.framework in Frameworks */,
-				B006CC3C20DD055700492055 /* RxSwift.framework in Frameworks */,
-				59B50F59219AF014001286B1 /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,11 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BA6D2C2174E3DB003AED4B /* RxTest.framework in Frameworks */,
-				B5D3BEC4217F17C9003B6903 /* RxCocoa.framework in Frameworks */,
-				B5BD0072217E13980001BE98 /* FBSnapshotTestCase.framework in Frameworks */,
-				B5BD006E217E0DA50001BE98 /* Nimble.framework in Frameworks */,
-				B5BD0070217E0DA70001BE98 /* Nimble_Snapshots.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +154,6 @@
 				B07785252033045700976A2F /* LoginDemoRxReduxTests */,
 				7BDE6A17225ED1910066FD79 /* LoginDemoRxReduxUITests */,
 				B077850F2033045700976A2F /* Products */,
-				B3AC00998A9BB04A6A48DAFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,29 +203,6 @@
 				B09FA2CA20E289FB002BF342 /* LoginStore.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		B3AC00998A9BB04A6A48DAFF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59B50F58219AF014001286B1 /* AlamofireImage.framework */,
-				59B50F56219AD2E8001286B1 /* Alamofire.framework */,
-				59B50F4A2199D1DA001286B1 /* RxDataSources.framework */,
-				B0149AF62180A28D0049B4CA /* SnapKit.framework */,
-				B0149AF42180A2880049B4CA /* Swinject.framework */,
-				B0149AF22180A2840049B4CA /* Lottie.framework */,
-				B5BD0071217E13980001BE98 /* FBSnapshotTestCase.framework */,
-				B5BD006F217E0DA70001BE98 /* Nimble_Snapshots.framework */,
-				B5BD006D217E0DA40001BE98 /* Nimble.framework */,
-				B0149AF021809D530049B4CA /* Swinject.framework */,
-				B0BA6D282174D201003AED4B /* RxTest.framework */,
-				B09FA2CC20E28CAB002BF342 /* RxFeedback.framework */,
-				B006CC3520DD055700492055 /* RxAutomaton.framework */,
-				B006CC3620DD055700492055 /* RxCocoa.framework */,
-				B006CC3720DD055700492055 /* RxGesture.framework */,
-				B006CC3820DD055700492055 /* RxSwift.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B521A0A52191C24000BF1C6E /* TableView */ = {

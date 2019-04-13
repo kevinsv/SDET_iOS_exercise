@@ -1,22 +1,9 @@
 {
-  "Mac" : [
-    {
-      "name" : "RxGesture",
-      "hash" : "806362b42c6513124547a3303cba6704afaf92bf40387ba81473f036af6c4ecd",
-      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
-    }
-  ],
-  "watchOS" : [
-
-  ],
-  "tvOS" : [
-
-  ],
   "commitish" : "2.2.0",
   "iOS" : [
     {
       "name" : "RxGesture",
-      "hash" : "5f69f3d7b7a597f00d61c4aa9a2e6448504b142a9b5fbc714ef3cec8b7f59c56",
+      "hash" : "65f88f892812952d851b67bc65dded6bbe0ea9ae79478079fd4a76b4ba8fad82",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]
