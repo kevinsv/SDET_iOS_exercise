@@ -11,12 +11,12 @@ jobs:
     environment:
     steps:
       - checkout
-      - run:
-            name: Update Carthage
-            command: carthage update --no-use-binaries --platform iOS
-      - run:
-            name: Build app Carthage
-            command: carthage bootstrap --platform ios --no-use-binaries
+#      - run:
+#            name: Update Carthage
+#            command: carthage update --no-use-binaries --platform iOS
+#      - run:
+#            name: Build app Carthage
+#            command: carthage bootstrap --platform ios --no-use-binaries
       - run:
             name: Setup - Running bundle install
             command: bundle check || bundle install --path vendor/bundle
