@@ -1,9 +1,22 @@
 {
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "FBSnapshotTestCase",
+      "hash" : "794c8127aefcaa0ee5ebb31117f145cb3cb3bb4ba3c2134577720503f9024dc5",
+      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+    }
+  ],
   "commitish" : "6.0.3",
   "iOS" : [
     {
       "name" : "FBSnapshotTestCase",
-      "hash" : "3ba174b40a86facc623ad8a93b7062ffa21c894ca87862f105ac38528788d789",
+      "hash" : "466aba57bd4c1dc9b1bcbb311fe47f6bee0c86e98201240e0ff5d3b079376c64",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]
