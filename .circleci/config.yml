@@ -9,30 +9,9 @@ jobs:
     environment:
     steps:
       - checkout
-
-      - restore_cache:
-              keys:
-                - gems-{{ checksum "Gemfile.lock" }}
-
       - run:
             name: Setup - Running bundle install
             command: bundle check || bundle install --path vendor/bundle
-
-      - save_cache:
-            key: gems-{{ checksum "Gemfile.lock" }}
-            paths:
-              - vendor/bundle
-              
-      - run:
-            name: Setup - Running pod install
-            command: |
-              curl -sS https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash
-              bundle exec pod install
-
-      - save_cache:
-              key: pods-{{ checksum "Podfile.lock" }}
-              paths:
-                - Pods
 
       - run:
             name: Build and run tests
