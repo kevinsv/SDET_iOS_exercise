@@ -22,11 +22,7 @@ jobs:
             key: gems-{{ checksum "Gemfile.lock" }}
             paths:
               - vendor/bundle
-
-      - restore_cache:
-            keys:
-              - pods-{{ checksum "Podfile.lock" }}
-
+              
       - run:
             name: Setup - Running pod install
             command: |
