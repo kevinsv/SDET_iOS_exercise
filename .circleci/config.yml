@@ -7,20 +7,9 @@ jobs:
     shell: /bin/bash --login -eo pipefail
     working_directory: /Users/distiller/project
     environment:
-      GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: YOUR_CODE_SIGNING_IDENTITY"
-      FL_OUTPUT_DIR: /Users/distiller/project/output
-      LANG: en_US.UTF-8
-      LC_ALL: en_US.UTF-8
-
     steps:
       - checkout
-
-     # - run: brew upgrade sqlite3
-
-     # - run:
-     #      name: Setup - Set Ruby Version
-     #      command: echo "ruby-2.4" > ~/.ruby-version
-
+      
       - restore_cache:
               keys:
                 - gems-{{ checksum "Gemfile.lock" }}
