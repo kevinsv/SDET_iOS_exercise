@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='LoginDemoRxReduxUITests.xctest' tests='17' failures='5'>
   <testsuite name='LoginDemoRxReduxTests.LoginDemoRxReduxTests' tests='11' failures='5'>
-    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testCorrectLogin' time='0.010'/>
+    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testCorrectLogin' time='0.007'/>
     <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testCorrectPassword' time='0.001'/>
-    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testEmptyPassword' time='0.001'/>
-    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testIncorrectLogin' time='0.002'/>
+    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testEmptyPassword' time='0.002'/>
+    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testIncorrectLogin' time='0.003'/>
     <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testIncorrectPassword' time='0.001'/>
     <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testSnapshot_LoggedOut_PasswordHidden_LoginButtonDisabled'>
       <failure message='expected a matching snapshot in LoginDemoRxReduxTests_testSnapshot_LoggedOut_PasswordHidden_LoginButtonDisabled'>
@@ -31,14 +31,14 @@
         /Users/kevinsalgado/Documents/MyTaxy/SDET_iOS_exercise/LoginDemoRxReduxTests/LoginDemoRxReduxTests.swift:305
       </failure>
     </testcase>
-    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testTogglePassword' time='0.003'/>
+    <testcase classname='LoginDemoRxReduxTests.LoginDemoRxReduxTests' name='testTogglePassword' time='0.002'/>
   </testsuite>
   <testsuite name='LoginDemoRxReduxUITests.LoginTest' tests='6' failures='0'>
-    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testButtonDisable' time='6.373'/>
-    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testButtonEnable' time='7.301'/>
-    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testInvalidloginCredentials' time='10.112'/>
-    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testValidateMinPasswordValue' time='7.523'/>
-    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testValidateMinUserNameValue' time='7.121'/>
-    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testValidloginCredentials' time='8.376'/>
+    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testButtonDisable' time='6.194'/>
+    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testButtonEnable' time='7.293'/>
+    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testInvalidloginCredentials' time='9.933'/>
+    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testValidateMinPasswordValue' time='7.108'/>
+    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testValidateMinUserNameValue' time='7.094'/>
+    <testcase classname='LoginDemoRxReduxUITests.LoginTest' name='testValidloginCredentials' time='8.798'/>
   </testsuite>
 </testsuites>
