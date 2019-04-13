@@ -1,7 +1,7 @@
 # .circleci/config.yml
 version: 2
 jobs:
-  build-and-test:
+  build:
     macos:
       xcode: "9.3.0"
     shell: /bin/bash --login -eo pipefail
@@ -9,7 +9,7 @@ jobs:
     environment:
     steps:
       - checkout
-      
+
       - restore_cache:
               keys:
                 - gems-{{ checksum "Gemfile.lock" }}
