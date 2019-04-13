@@ -3,12 +3,15 @@ version: 2
 jobs:
   build:
     macos:
-      xcode: "9.3.0"
+      xcode: "10.0.0"
     shell: /bin/bash --login -eo pipefail
     working_directory: /Users/distiller/project
     environment:
     steps:
       - checkout
+       - run:
+            name: Update Carthrage
+            command: carthage update
       - run:
             name: Setup - Running bundle install
             command: bundle check || bundle install --path vendor/bundle

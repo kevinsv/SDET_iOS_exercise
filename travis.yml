@@ -5,6 +5,7 @@ branches:
     - CI
     - master
 before_install:
+  - carthage update
   - gem install fastlane --no-ri --no-rdoc --no-document
 install: true
 script:
