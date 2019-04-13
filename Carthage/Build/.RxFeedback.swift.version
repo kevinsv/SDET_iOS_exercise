@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "RxFeedback",
-      "hash" : "680901278c3a776c6e3b28bf943fd5435c1d651b226acb72b95b5e1c0b050d97",
+      "hash" : "72a1e8ffbe3d596c8300635d2b97f62bc1994ec34f91544316b42fb52346c5f4",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]

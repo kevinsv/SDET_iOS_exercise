@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "Swinject",
-      "hash" : "c1f9c15f89279d88301f4ba590eccd8949a8b2db982e4df24a93995b146d5cf6",
+      "hash" : "8e08c64f46fd05f4ea370c925ff2b2b759ac334e6243b037b5b0adbea0bb1036",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]

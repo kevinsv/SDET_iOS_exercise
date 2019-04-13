@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "Nimble_Snapshots",
-      "hash" : "ad06140cc115eeded0d6fed4894c84569e1b97d1f537730e4b3c58910e6e2b47",
+      "hash" : "971646969eedfa487e6e766f7508c4929e9eae37073ab777fe6e93574f1a1494",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]
