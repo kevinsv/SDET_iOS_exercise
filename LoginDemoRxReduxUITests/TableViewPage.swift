@@ -20,12 +20,15 @@ public class TableViewPage {
     lazy var header = app.navigationBars["Rx TableView Example"]
     
     func clickRefresh(){
-          refreshBtn.tap()
+        XCTAssertTrue(refreshBtn.waitForExistence(timeout: 1), "Button is not displayed")
+        refreshBtn.tap()
     }
     
     func headerExists() {
         XCTAssertTrue(header.waitForExistence(timeout: 1), "Header is not displayed")
     }
+    
+    
     
 }
 

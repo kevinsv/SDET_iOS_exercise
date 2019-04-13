@@ -18,11 +18,12 @@ import XCTest
     
      lazy var loginIdTextField = app.textFields["Username"]
      lazy var loginPasswordTextField = app.secureTextFields["Password"]
+    lazy var loginPasswordTextFieldNotSecure = app.textFields["Password"]
      lazy var signInBtn = app.buttons["Login"]
      lazy var alertModal = app.alerts["An unowned Error occured"]
      lazy var alertText1 = alertModal.staticTexts["An unowned Error occured"]
      lazy var alertText2 = alertModal.staticTexts["Something went wrong!"]
-     lazy var alertBtn = alertModal.buttons["OK"]
+    lazy var alertBtn = alertModal.buttons["OK"]
     
     func enterUsernameAndPassword(userName:String, userPassword:String){
         
@@ -50,6 +51,7 @@ import XCTest
         XCTAssertTrue(alertModal.waitForExistence(timeout: 1), "Alert is not displayed")
         XCTAssertTrue(alertBtn.waitForExistence(timeout: 1), "OK button is not displayed")
     }
+    
 }
 
 

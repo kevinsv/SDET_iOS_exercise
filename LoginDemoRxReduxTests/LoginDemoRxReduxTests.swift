@@ -306,45 +306,45 @@ class LoginDemoRxReduxTests: XCTestCase {
         }
     }
 
-    func testSnapshot_LoggedOut_PasswordNotHidden_LoginButtonEnabled() {
-        let loginViewModel = LoginView.Model(isLoginButtonEnabled: true, isPasswordHidden: false, isSpinning: false, state: .loggedOut)
-        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
-        _ = Driver.just(loginViewModel).drive(inputs)
+//    func testSnapshot_LoggedOut_PasswordNotHidden_LoginButtonEnabled() {
+//        let loginViewModel = LoginView.Model(isLoginButtonEnabled: true, isPasswordHidden: false, isSpinning: false, state: .loggedOut)
+//        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
+//        _ = Driver.just(loginViewModel).drive(inputs)
+//
+//        recordOrAssertSnapshot(on: loginView)
+//    }
 
-        recordOrAssertSnapshot(on: loginView)
-    }
+//    func testSnapshot_LoggedOut_PasswordHidden_LoginButtonDisabled() {
+//        let loginViewModel = LoginView.Model(isLoginButtonEnabled: false, isPasswordHidden: true, isSpinning: false, state: .loggedOut)
+//        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
+//        _ = Driver.just(loginViewModel).drive(inputs)
+//
+//        recordOrAssertSnapshot(on: loginView)
+//    }
 
-    func testSnapshot_LoggedOut_PasswordHidden_LoginButtonDisabled() {
-        let loginViewModel = LoginView.Model(isLoginButtonEnabled: false, isPasswordHidden: true, isSpinning: false, state: .loggedOut)
-        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
-        _ = Driver.just(loginViewModel).drive(inputs)
+//    func testSnapshot_PerformingLogin_LoginButtonDisabled() {
+//        let loginViewModel = LoginView.Model(isLoginButtonEnabled: false, isPasswordHidden: true, isSpinning: true, state: .performingLogin)
+//        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
+//        _ = Driver.just(loginViewModel).drive(inputs)
+//
+//        recordOrAssertSnapshot(on: loginView)
+//    }
 
-        recordOrAssertSnapshot(on: loginView)
-    }
+//    func testSnapshot_LoginFailed_LoginButtonDisabled() {
+//        let apiError = APIError.wrongCredentials
+//        let loginViewModel = LoginView.Model(isLoginButtonEnabled: false, isPasswordHidden: true, isSpinning: false, state: .loginFailed(apiError))
+//        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
+//        _ = Driver.just(loginViewModel).drive(inputs)
+//
+//        recordOrAssertSnapshot(on: loginView)
+//    }
 
-    func testSnapshot_PerformingLogin_LoginButtonDisabled() {
-        let loginViewModel = LoginView.Model(isLoginButtonEnabled: false, isPasswordHidden: true, isSpinning: true, state: .performingLogin)
-        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
-        _ = Driver.just(loginViewModel).drive(inputs)
-
-        recordOrAssertSnapshot(on: loginView)
-    }
-
-    func testSnapshot_LoginFailed_LoginButtonDisabled() {
-        let apiError = APIError.wrongCredentials
-        let loginViewModel = LoginView.Model(isLoginButtonEnabled: false, isPasswordHidden: true, isSpinning: false, state: .loginFailed(apiError))
-        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
-        _ = Driver.just(loginViewModel).drive(inputs)
-
-        recordOrAssertSnapshot(on: loginView)
-    }
-
-    func testSnapshot_LoginFailed_LoginButtonEnabled() {
-        let apiError = APIError.wrongCredentials
-        let loginViewModel = LoginView.Model(isLoginButtonEnabled: true, isPasswordHidden: true, isSpinning: false, state: .loginFailed(apiError))
-        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
-        _ = Driver.just(loginViewModel).drive(inputs)
-
-        recordOrAssertSnapshot(on: loginView)
-    }
+//    func testSnapshot_LoginFailed_LoginButtonEnabled() {
+//        let apiError = APIError.wrongCredentials
+//        let loginViewModel = LoginView.Model(isLoginButtonEnabled: true, isPasswordHidden: true, isSpinning: false, state: .loginFailed(apiError))
+//        let inputs: Binder<LoginView.Model> = loginView.rx.inputs
+//        _ = Driver.just(loginViewModel).drive(inputs)
+//
+//        recordOrAssertSnapshot(on: loginView)
+//    }
 }
