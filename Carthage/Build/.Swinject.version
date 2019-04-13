@@ -1,9 +1,30 @@
 {
+  "Mac" : [
+    {
+      "name" : "Swinject",
+      "hash" : "4491ffdb411d94ebc8ff3fe99e39897451a4710c069afbab907d0436d9427ce8",
+      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "Swinject",
+      "hash" : "dce39763881f88be7cad7b4f43f47e6cc95361071273dc3bcf92b7c232c63863",
+      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "Swinject",
+      "hash" : "2c96d6ae35a87fc3e8ccdaf0515378acf7d119ffe3397e57dbf1980e17108815",
+      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+    }
+  ],
   "commitish" : "2.6.0",
   "iOS" : [
     {
       "name" : "Swinject",
-      "hash" : "c31fce1f5398ee4add1b222f0f4ab003a6e7955f8bc0a9e11f6e127a03012821",
+      "hash" : "7ecea51dbeec1e5d58eef9e336e1c537ba00ff3d9099818f54af4ef9eba2ec2c",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]

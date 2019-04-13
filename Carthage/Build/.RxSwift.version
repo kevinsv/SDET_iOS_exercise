@@ -48,13 +48,13 @@
   ],
   "tvOS" : [
     {
-      "name" : "RxAtomic",
-      "hash" : "3d204e7b18f1d22355806c3703eb1efb052b8162f502fd9f2f89bf12325f2e56"
-    },
-    {
       "name" : "RxTest",
       "hash" : "8ce1484ef1c6f2c6d0c343be2b52308675d257c3a6703a5cbcd6cc0b6002bd73",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+    },
+    {
+      "name" : "RxAtomic",
+      "hash" : "3d204e7b18f1d22355806c3703eb1efb052b8162f502fd9f2f89bf12325f2e56"
     },
     {
       "name" : "RxBlocking",

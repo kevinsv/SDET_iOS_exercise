@@ -1,9 +1,22 @@
 {
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "Nimble_Snapshots",
+      "hash" : "6d5d54a001fd590969afed7e98d5c6b2783ac736d3a69dc62d18dc43b8c110e1",
+      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+    }
+  ],
   "commitish" : "7.0.0",
   "iOS" : [
     {
       "name" : "Nimble_Snapshots",
-      "hash" : "5e86314cb7a138eff5c05d6b3384481e89f33b9f99eca9f3fec8cdec8c0d35b0",
+      "hash" : "2cc5d5d2f35398a8140c1733a75f66910e797d47485f4e72c22a2f8dae44ab55",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]
