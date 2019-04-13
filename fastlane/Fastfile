@@ -6,8 +6,7 @@ platform :ios do
     setup_circle_ci
   end
 
-  desc "Runs all the tests"
   lane :test do
-    scan
-  end
+  run_tests(scheme: "LoginDemoRxRedux")
+end
 end
