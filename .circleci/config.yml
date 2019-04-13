@@ -29,7 +29,7 @@ version: 2
 jobs:
   build:
     macos:
-      xcode: "10.1.0"
+      xcode: "10.2.0"
     working_directory: /Users/distiller/project
     environment:
       FL_OUTPUT_DIR: output
@@ -39,6 +39,7 @@ jobs:
       - checkout
 #      - restore_cache:
 #          key: 1-gems-{{ checksum "Gemfile.lock" }}
+      - run: carthage bootstrap
       - run: bundle install
       - run: bundle update
       - run: bundle version
