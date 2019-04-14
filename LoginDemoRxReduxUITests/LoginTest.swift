@@ -2,12 +2,13 @@
 //  LoginTest.swift
 //  LoginDemoRxReduxUITests
 //
-//  Created by Kevin Salgado on 4/10/19.
+//  Created by Kevin Salgado on 4/14/19.
 //  Copyright © 2019 Mounir Dellagi. All rights reserved.
 //
 
 import XCTest
 
+//Login Test Class
 class LoginTest : XCTestCase{
     
     let app = XCUIApplication()
@@ -22,10 +23,10 @@ class LoginTest : XCTestCase{
     }
     
     override func tearDown() {        
-        //Call Teardown of BaseTest
+        //Call Teardown
         super.tearDown()
     }
-    
+    //instance to Login Screen
     let loginPage = LoginPage();
     
     func testValidloginCredentials(){
@@ -40,7 +41,7 @@ class LoginTest : XCTestCase{
         
         tableViewPage.headerExists()
         
-        }
+    }
     
     func testInvalidloginCredentials(){
         //Test to validate user is able to login using invalid credentials
@@ -49,7 +50,7 @@ class LoginTest : XCTestCase{
         loginPage.buttonEnable()
         loginPage.clickLoginBtn()
         loginPage.alertDisplayed()
-    
+        
     }
     
     func testButtonEnable(){
@@ -78,8 +79,6 @@ class LoginTest : XCTestCase{
     func testValidateMinPasswordValue(){
         //Test to validate min values that user can enter into Password Field to make button disable
         // Max username length vs min password lenght
-        app.launch()
-        
         let loginPage = LoginPage()
         loginPage.enterUsernameAndPassword(userName:"123456", userPassword:"1234567")
         loginPage.buttonDisable()
